@@ -108,7 +108,6 @@ def world():
 
 
 def move():
-    print(pacman)
     """Move pacman and all ghosts."""
     writer.undo()
     writer.write(state['score'])
